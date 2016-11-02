@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int a,b,c;
+
+int main()
+{
+A a;
+a.getinput();
+c=a+b;
+a.output();
+return 0;
+
+
+}
+
+class A
+{
+    void getinput(void);
+    void output();
+
+};
+void getinput()
+{
+    cin>>a;
+    cin>>b;
+}
+void output()
+{
+  cout<<c;
+}
